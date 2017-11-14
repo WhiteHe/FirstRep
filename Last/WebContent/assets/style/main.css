@@ -1,0 +1,12 @@
+.side-nav>.nav  .nav>li>a {
+	padding-left: 40px;
+}
+
+.side-nav>.nav a {
+	color: #777;
+}
+
+.side-nav>.nav li.active>a {
+	color: #ffffff;
+	background-color: #337ab7;
+}
