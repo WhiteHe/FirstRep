@@ -1,0 +1,2 @@
+	这个工具必须配合java  PageUtil使用
+	java保存的作用域的键 必须叫page

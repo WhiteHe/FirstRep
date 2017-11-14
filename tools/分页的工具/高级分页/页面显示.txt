@@ -1,0 +1,18 @@
+<div class="panel-footer">
+	<div>
+	  <ul class="pagination">
+		<li><a href="employeeAction?pager.pageNum=${(pager.pageNum eq 1)?1:pager.pageNum-1 }">上一页</a></li>
+		<c:forEach begin="${pager.pageStart }" end="${pager.pageEnd }" var="num">
+			<c:choose>
+				<c:when test="${num eq pager.pageNum }">
+					<li class="active"><span>${num }</span></li>
+				</c:when>
+				<c:otherwise>
+					<li><a href="employeeAction?pager.pageNum=${num }">${num }</a></li>
+				</c:otherwise>
+			</c:choose>
+		</c:forEach>
+		<li><a href="employeeAction?pager.pageNum=${(pager.pageNum eq pager.pageCount)?pager.pageCount:pager.pageNum+1 }">下一页</a></li>
+	  </ul>
+	</div>
+</div>
