@@ -1,0 +1,13 @@
+jdk7ÏÂÔØurl
+
+
+http://113.207.77.26/file3.data.weipan.cn/26015768/1992a3e713c45032740f1dd290cb80d176e2c8c1?ip=1496645136,175.152.117.93&ssig=YAUOCn4kUO&Expires=1496645736&KID=sae,l30zoo1wmz&fn=jdk-7u25-linux-x64.tar.gz
+
+tomcat8ÏÂÔØurl
+
+http://mirror.bit.edu.cn/apache/tomcat/tomcat-8/v8.0.45/bin/apache-tomcat-8.0.45.tar.gz
+
+
+hadoopÏÂÔØurl
+
+http://mirror.bit.edu.cn/apache/hadoop/common/hadoop-2.7.2/hadoop-2.7.2.tar.gz
